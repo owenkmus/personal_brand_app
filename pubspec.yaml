@@ -1,0 +1,36 @@
+name: personal_brand_app
+description: "A new Flutter project."
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.5.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8 # <-- Añade esta línea
+  url_launcher: ^6.3.1
+  video_player: ^2.9.2
+  http: ^1.2.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+  flutter_launcher_icons: ^0.14.1
+
+flutter:
+  assets:
+    - assets/LogoChris.gif # Asegúrate de tener el GIF en esta ubicación
+    - assets/Chris.png
+    - assets/IntroCris.mp4
+  uses-material-design: true
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon/Chris.png" # La ruta de tu imagen de ícono
+  #adaptive_icon_background: "#ffffff" # Solo para Android (fondo del icono adaptable)
+  #adaptive_icon_foreground: "assets/icon/app_icon_foreground.png" # Solo para Android
